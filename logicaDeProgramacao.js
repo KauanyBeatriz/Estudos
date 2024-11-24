@@ -467,5 +467,21 @@
                 contador++
                 }
                 console.log ("")
+
+//Function
+            
+            
+            console.log("Function: ")
+            console.log ("")
+            
+            main()
+
+            function torrar(){
+                console.log ("Torrar pão")
+            }
+
+            function main() { //função pai ou principal, chama todas as outras 
+                torrar()
+            }
                 
 

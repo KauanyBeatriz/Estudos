@@ -1,5 +1,5 @@
 const namePersonagem = "Anny" //constante
-let nivel = 8500 //variavel
+let nivel = 7825 //variavel
 let categoria = ""
 
 for(let i = 0; i <= nivel; i++){
