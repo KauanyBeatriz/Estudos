@@ -383,7 +383,89 @@
               }else{
                 console.log("Você comeria mais que o pica pau")
               }
+              console.log("")
 
+// ESTRUTURA DE DECISÃO
+
+    //Swith - Case - Break - default
+
+        console.log ("EXEMPLO 18 - ESTRUTURA DE DECISÃO: ")
+            
+            //Opões de fruta para bebida
+
+              let fruta = "Banana"
+              console.log ("A opção de fruta escolhida: " + fruta)
+
+              switch(fruta){ //-> estrutura de menu
+                case "Laranja": // -> Case são as opções
+                    console.log("suco de laranja")
+                    break // -> Parar opções caso um deles esteja correto
+                case "Banana":
+                case "Morango": //-> posso ter mais de um case tendo a mesma resposta 
+                    console.log("Vitamina " + fruta)
+                    break
+                case "Maça": //-> case pode ser usado com numero
+                    console.log("Suco de maça")
+                    break
+
+                default: //-> Caso não tenha nenhuma opção do menu, é executado uma mensagem genérica.
+                    console.log("Suco genérico")                    
+              }
+              console.log ("")
+
+// LAÇOS DE REPETIÇÃO
+        
+    //FOR
+        console.log ("EXEMPLO 18 - LAÇOS DE REPETIÇÃO: ")
+              
+            console.log ("Exemplo contagem: ")
+            console.log ("")
+
+                for(let contador = 0; contador < 4; contador++){ //-> tomar cuidado com o contador iniciando do zero
+                    console.log(contador)
+                }
+                console.log ("")
 
             
+            console.log ("Exemplo pontos de vida: ")
+            console.log ("")
+
+                let pontosDeVida = 0
+
+                for(let i = 0; i < 10; i++){
+                    pontosDeVida += 1
+                    console.log("Tomou poção mágica" + i)
+                }
+
+                console.log (pontosDeVida + " totais")
+                console.log ("")
+    
+    //WHILE
+        
+        console.log ("Exemplo while: ")
+        console.log ("")
+
+              contador = 0
+
+              while(contador < 3){
+                console.log("ola")
+                contador++
+              }
+              console.log ("")
+            
+    // Do while
+
+        console.log ("Exemplo while: ")
+        console.log ("")
+                
+              contador = 0
+              
+                do{ //-> do while, a regra vem depois. Isso signififica que a situação vai acontecer pelo menos uma vez no código
+                console.log("ola")
+                }while(contador < 3){
+                console.log("ola")
+                contador++
+                }
+                console.log ("")
+                
 
