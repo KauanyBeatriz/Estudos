@@ -224,19 +224,65 @@
             //modelo de camada: definem regras e orientações para que haja a intercomunicação entre os dispositivos de rede independentemente do fabricante ou modelo,
             // ele delimita as funções das regras de comunicação, dos serviços e das interfaces e serve como referência de comparação entre protocolos e serviços de pilhas diferentes.
 
-            //OSI: -> 7 camadas
-                // aplicação
-                // apresentação
-                // sessão
-                // transporte
-                // rede
-                // enlace
-                // física
+                //ex: O pacote da informação será encapsulado (empacotado) e descerá todos as camadas sendo analisado reempacotado com um novo cabeçalho que será condizente com a camada que se encontra, 
+//              ao fim do envio para receber este mesmo pacote ele será desempacotado respectivamente em pelas camadas condizentes fazendo o caminho oposto para liberar a informação
+
+
+            // OSI: -> 7 camadas
+
+                // Camada de aplicação: envia dados ou recebe, faz a interface com as aplicações do computador -> HTTP (web); HTTPS (web com mais proteção); FTP (transferencia de arquivos); SMPT (email)
+                // Camada de apresentação: Faz a tradução/conversão/criptografia dos dados para que a próxima camada os use.
+                // Camada de sessão: Responsável por estabelecer/manter e encerrar a conexão entre hosts (dispositivos).
+                // Camada de transporte: Garante o envio, recebimento e integridade dos pacotes vindos da camada três.
+                // Camada de rede: Verifica quem é o remetente e o destinatário da mensagem (endereçamento logico (IP)) e prioriza quais mensagens serão enviadas primeiro(estabelecimento de rotas).
+                // Camada de enlace de dados: Verifica se os pacotes têm algum defeito em sua formatação e controla o fluxo com que eles são enviados (endereçamento físico e seguro entre os dispositivos).
+                // Camada física: Especifica os dispositivos e os meios de transmissão.               
 
                 //caracteristicas: 
                     //1- decomposição dos componentes em partes menores
                     //2- padronização dos componentes presentes na rede
                     //3- comunicação entre diversos tipos de hardware e software
+            
+            // TCP/IP: -> 4 camadas
+
+                // Camada de aplicativo: Esta camada única é mapeada para as camadas de aplicativo, apresentação e sessão do modelo OSI. Alguns protocolos que operam nesta camada incluem HTTP, SMTP e DNS.
+                // Camada de transporte: Esta camada mapeia para a camada de Transporte do modelo OSI. O TCP e o User Datagram Protocol (UDP) operam nesta camada.
+                // Camada da Internet: A camada Internet é equivalente à camada de rede no modelo OSI. Esta camada é coberta principalmente pelo Protocolo de Internet (IP), mas ARP, IGMP e ICMP também operam nesta camada.
+                // Camada de acesso à rede: Esta camada combina as camadas Física e de Enlace de Dados do modelo OSI. Ethernet, Token Ring, ATM e Frame Relay são exemplos do conjunto de protocolos TCP/IP que operam nesta camada.
+
+                    // O modelo OSI é mais teórico, descrevendo as diversas tarefas que devem ser realizadas para permitir que os dados da camada de aplicativo sejam transmitidos por meio de eletricidade, luz ou ondas de rádio. 
+                    // O modelo TCP/IP é mais prático e mapeia de perto os protocolos de rede reais.
+
+            // IP: identificador único de cada dispositivo na internet ou uma rede local
+
+            //octetos ex: 192.168.100.1
+
+                //    1º octeto       2º octeto       3º octeto       4º octeto
+                //      192      .      168      .      100      .       1      -> os digitos são uma representação decimal de um numero binario
+                //    11000000        10101000        01100100        00000001  
+                //     8 bits    +     8 bits     +    8 bits     +    8 bits  = 32 bits
+
+            //mascaras de rede
+                //classes: 
+
+            //ataque contra IP:
+                //engenharia social
+                //ciberstalking
+                //download de conteudo ilegal usando seu endereço Ip
+                //rastrear sua localização
+                //ataque direto a sua rede
+                //ataques em seu dispositivo
+
+        //Proxy e VPN
+            // As redes privadas virtuais(VPNs) e os proxis são camada extra entre o navegador e qualquer empresa de rastreamento de dados ou governo
+
+            //VPN -> codifica os dados enviados e recebidos da internet, permitindo acessar de forma segura  e privada websites  e usar programas e aplicativos independente da rede utilizada.
+
+            // com VPN: usuario -> (desprotegido) -> VPN cliente -> (protegido) -> provedor internet -> (protegido) -> VPN Server (desprotegido) -> Internet
+
+            // sem VPN: usuario  ->  provedor internet   ->   Internet
+
+
 
 
 
