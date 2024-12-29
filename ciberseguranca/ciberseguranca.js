@@ -282,6 +282,31 @@
 
             // sem VPN: usuario  ->  provedor internet   ->   Internet
 
+                //vantagens: 
+                    // VPN criptografa a conexão
+                    // Evita que um provedor ou empregador espie o tráfego, através do roteador.
+                
+            //Proxy: servidor público remoto acessado através de um aplicativo web ou programa desktop que acessa páginas web "em seu nome (endereço IP)"
+                //:como um intermediario para acessar a internet, apenas o servidor sabe quem é você
+
+//DEEP WEEB e Anonimato
+
+    //curiosidades: a internet é composta de camadas, que se refere aos niveis de indexadão(procura) dos sites.
+        // surface weeb: contem todos os sites comuns acessados através de navegadores tradicionais como google chrome, internet Explrer e Firefox
+        // deep weeb ou dark weeb: não são anexados nos buscadores convencionais, estima-se que estão cerca de 90% de todos os sites estão lá(mas não se sabe a exatidão)
+            //redes: ONION, FREENET, 12P
+            //Perigos: software maliciosos, monitoramento do governo e golpes.
+            //Cuidados: Usar VPN, Antivírus atualizado e Ultilizar máquina virtual.
+
+//Tor Browser: 
+    //Tor: é uma rede de túneis virtuais que permite melhorar a privacidade e segurança na internet;
+    // ele envia seu tráfego por três servidores aleatórios (relés) na rede tor, tem um no de entrada e saída;
+
+
+
+
+
+
 
 
 
